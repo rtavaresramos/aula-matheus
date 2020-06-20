@@ -20,10 +20,7 @@ document.getElementById('btn').addEventListener('click', function(){
   var inputVal2 = parseInt(inputNum2.value)
   var inputVal3 = parseInt(inputNum3.value)
 
-
-  
-
-  if(inputVal1 == inputVal2 - 1 && inputVal1 == inputVal3 - 2){
+  if(inputVal1 == inputVal2 - 1 && inputVal1 == inputVal3 - 2 ){
 
     // aqui eu adiciono a variável store o resultado e adiciono ao final todos os outros
     // resultados antes dessa operação.
@@ -41,14 +38,7 @@ document.getElementById('btn').addEventListener('click', function(){
     // aqui eu adiciono a variável store o resultado e adiciono ao final todos os outros
     // resultados antes dessa operação.
 
-    store =   "<div class='alert alert-danger'><p> Valores: "
-    + 
-     
-     inputVal1 +", "+
-     inputVal2+" e "+
-     inputVal3
-     
-     +" invalidos, tente novamente. </p></div>"
+    store =   "<div class='alert alert-danger'><p> Valores invalidos, tente novamente. </p></div>"
      + store 
   }
 
@@ -59,5 +49,5 @@ document.getElementById('btn').addEventListener('click', function(){
   // x - parametro
   // x+1 - (parametro - 1)
   // x+2 - (parametro - 2)
-
+    
 })
