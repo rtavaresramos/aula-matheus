@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 var inputNum1 = document.getElementById('teste-1')
 var inputNum2 = document.getElementById('teste-2')
 var inputNum3 = document.getElementById('teste-3')
